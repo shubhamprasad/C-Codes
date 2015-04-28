@@ -38,7 +38,7 @@ int main(int argc, char ** argv) {
   while((d = readdir(dp)) != NULL){
   	count++;
   }
-  //cout<<count<<endl;
+ 
   listdir(s,s1,count);
   cout << endl;
   int x;
